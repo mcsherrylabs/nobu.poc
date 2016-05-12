@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "sss-console.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in rugby-world-cup.scss */
+.sss-console {
+  @include addons;
+  @include sss-console;
+}
