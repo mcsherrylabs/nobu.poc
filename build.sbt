@@ -25,7 +25,7 @@ libraryDependencies ++= Seq(
   "com.vaadin" % "vaadin-client-compiler" % vaadinVer,
   "com.vaadin" % "vaadin-client-compiled" % vaadinVer,
   "us.monoid.web" % "resty" % "0.3.2",
-  //"org.vaadin.addons" % "dom"  % "0.1.0",
+  "org.vaadin.icons" % "vaadin-icons" % "1.0.1",
   "org.vaadin.addons" % "animator" % "1.7.4",
   "com.haulmont.thirdparty" %  "notifique" %  "1.1.2",
   "mcsherrylabs.com" %% "sss-ancillary" % "0.9.8",

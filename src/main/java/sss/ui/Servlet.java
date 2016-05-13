@@ -10,7 +10,7 @@ import javax.servlet.annotation.WebServlet;
 
 @SuppressWarnings("serial")
 @WebServlet(value = "/*", asyncSupported = true)
-@VaadinServletConfiguration(productionMode = false, ui = ConsoleUI.class, widgetset = "NobuWidgetSet")
+@VaadinServletConfiguration(productionMode = false, ui = NobuUI.class, widgetset = "NobuWidgetSet")
 @Push
 public class Servlet extends VaadinServlet {
 	
